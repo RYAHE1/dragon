@@ -17,3 +17,11 @@ const props = defineProps({
     },
 });
 </script>
+
+<style scoped>
+card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px
+}
+</style>
